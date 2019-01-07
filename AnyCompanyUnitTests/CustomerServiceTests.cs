@@ -11,6 +11,7 @@ namespace AnyCompanyUnitTests
     [TestClass]
     public class CustomerServiceTests
     {
+        //further refactor these tests so there is only one assert and tests should be more BDD
         [TestMethod]
         public void TestCustomersWithLinkedOrdersService()
         {
